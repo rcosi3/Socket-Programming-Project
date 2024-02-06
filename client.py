@@ -10,7 +10,7 @@ PORT = 9999
 
 #specify protocol
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-#connect finction uses connect instead of bind
+#to connect uses connect instead of bind
 socket.connect((HOST, PORT)) #also in tuple
 
 #encode sended message
